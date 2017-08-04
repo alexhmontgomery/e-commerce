@@ -164,10 +164,11 @@ footer span {
 
 .item-image {
   height: 35vh;
+  transition: all 0.5s;
 }
 
 .item-image:hover {
-  height: 50vh;
+  height: 45vh;
 }
 
 .item-info {
