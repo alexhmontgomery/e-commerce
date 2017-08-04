@@ -30,6 +30,10 @@ nav {
   /*text-transform: uppercase;*/
 }
 
+.nav-site:hover {
+  color: rgb(178,156,9);
+}
+
 .dropdown {
   flex-basis: 20%;
   position: relative;
@@ -173,10 +177,23 @@ footer span {
 
 .item-info {
   padding: 0% 2%;
+  width: 50%;
 }
 
 .item-info p {
   padding: 2% 0%;
+}
+
+.purchase-button {
+  background-color: rgb(50, 175, 186);
+  border: none;
+  border-radius: 5px;
+  padding: 3%;
+  font-size: 14px;
+}
+
+.purchase-button:hover {
+  background-color: rgb(178,156,9);
 }
 
 /*---contact page---*/
@@ -277,4 +294,9 @@ footer span {
 .about-image-container img {
   border-radius: 4%;
   height: 50vh;
+}
+
+/*---shopping cart---*/
+.cart-page {
+  min-height: 80vh;
 }

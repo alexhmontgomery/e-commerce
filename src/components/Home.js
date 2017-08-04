@@ -10,15 +10,15 @@ export default class Home extends Component {
           <h5>Get all of your favorite Mayer gear</h5>
         </div>
         <div className='home-banner'>
-          <div className='home-shopping-link'>
-            <Link to='/shop/apparel'><h3>Apparel</h3></Link>
-          </div>
-          <div className='home-shopping-link'>
-            <Link to='/shop/accessories'><h3>Accessories</h3></Link>
-          </div>
-          <div className='home-shopping-link'>
-            <Link to='/shop/music'><h3>Music</h3></Link>
-          </div>
+          <Link to='/shop/apparel' className='home-shopping-link'>
+            <span><h3>Apparel</h3></span>
+          </Link>
+          <Link to='/shop/accessories' className='home-shopping-link'>
+            <span><h3>Accessories</h3></span>
+          </Link>
+          <Link to='/shop/music' className='home-shopping-link'>
+            <span><h3>Music</h3></span>
+          </Link>
         </div>
       </div>
     )

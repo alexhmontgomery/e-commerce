@@ -51,6 +51,7 @@ export default class Store extends Component {
                 <h3 className='item-name'>{item.name}</h3>
                 <p className='item-description'>{item.description}</p>
                 <p className='item-price'>${item.price}</p>
+                <button type='submit' className='purchase-button'>Add to Cart</button>
               </div>
             </div>
           )}

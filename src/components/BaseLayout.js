@@ -23,7 +23,7 @@ export default class BaseLayout extends Component {
               <NavLink to='/contact'>Contact</NavLink>
             </li>
             <li className='navbar-item'>
-              <NavLink to='/??????'>Cart</NavLink>
+              <NavLink to='/cart'>Cart</NavLink>
             </li>
           </ul>
         </nav>
