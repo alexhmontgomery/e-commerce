@@ -1,0 +1,127 @@
+* {
+box-sizing: border-box;
+margin: 0 auto;
+font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.nav-site {
+  flex-basis: 40%;
+  padding-left: 4em;
+  font-size: 1.5em;
+  color: rgb(50, 175, 186);
+  /*text-transform: uppercase;*/
+}
+
+.dropdown {
+  flex-basis: 20%;
+  position: relative;
+  text-align: center;
+}
+
+.dropdown span {
+  color: rgb(178,156,9);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 17%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 1% 1.5%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 2%;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(50, 175, 186);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+nav ul {
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 4em;
+}
+
+nav ul, nav ul li {
+  display: inline-block;
+}
+
+.navbar-link-group li {
+  text-decoration: none;
+  padding: 0.5em 2em 0.5em 0;
+}
+
+footer {
+  text-align: center;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  text-align: center;
+}
+
+/*---homepage---*/
+
+.homepage {
+  min-height: 84vh;
+}
+
+.home-header {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1%;
+}
+
+.home-header h5 {
+  color: rgb(50, 175, 186);
+}
+
+.home-banner {
+  height: 70vh;
+  background-image: url('../mayer2.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.home-shopping-link {
+  background-color: white;
+  width: 17%;
+  text-align: center;
+  margin: 4% 3% 0% 6%;
+  padding: 2%;
+}
+
+.home-shopping-link:hover {
+  background-color: rgb(50, 175, 186);
+}
