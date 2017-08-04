@@ -76,6 +76,10 @@ nav ul, nav ul li {
   padding: 0.5em 2em 0.5em 0;
 }
 
+.navbar-item a:hover {
+  color: rgb(178,156,9);
+}
+
 footer {
   text-align: center;
   height: 8vh;
