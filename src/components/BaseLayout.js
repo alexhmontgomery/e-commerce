@@ -8,7 +8,7 @@ export default class BaseLayout extends Component {
         <nav className='nav-bar'>
           <NavLink exact to='/' className='nav-site'>John Mayer Store</NavLink>
           <div className='dropdown'>
-            <span><strong>SHOP THE STORE</strong></span>
+            <span><strong>GO SHOPPING &darr; </strong></span>
             <div className='dropdown-content'>
               <NavLink to='/shop/apparel'>Apparel</NavLink>
               <NavLink to='/shop/accessories'>Accessories</NavLink>
