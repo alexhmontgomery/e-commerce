@@ -129,3 +129,42 @@ footer span {
 .home-shopping-link:hover {
   background-color: rgb(50, 175, 186);
 }
+
+/*---store-page---*/
+.store-page-title {
+  text-align: center;
+  padding: 2%;
+  margin: 1% 0%;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: grey;
+}
+
+.item-box {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  margin: 1%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.item-image {
+  height: 20vw;
+}
+
+.item-info {
+  padding: 0% 2%;
+}
+
+.item-info p {
+  padding: 2% 0%;
+}
